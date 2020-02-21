@@ -44,7 +44,7 @@ const QuoteForm = props => {
         <TrumpImg src={trumpVector}/>
       </div>
       {props.isFetchingData ? (
-        <FetchingH3>... We are searching for a ramdom quote!</FetchingH3>
+        <FetchingH3>... We are searching for a random quote!</FetchingH3>
       ) : (
         <SearchButton onClick={handleGetData}>Get Quote</SearchButton>
       )}
